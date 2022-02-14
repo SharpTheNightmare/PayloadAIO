@@ -16,7 +16,5 @@ C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\obj\Debug\Pa
 C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\obj\Debug\PayloadAIO.csproj.GenerateResource.cache
 C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\obj\Debug\PayloadAIO.csproj.CoreCompileInputs.cache
 C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\obj\Debug\PayloadAIO.exe
-C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\obj\Debug\PayloadAIO.pdb
 C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\bin\Debug\PayloadAIO.exe.config
 C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\bin\Debug\PayloadAIO.exe
-C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\bin\Debug\PayloadAIO.pdb
