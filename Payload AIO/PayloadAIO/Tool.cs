@@ -214,7 +214,7 @@ namespace PayloadAIO
 
 		private void LinuxButton_Click(object sender, EventArgs e)
 		{
-			switch (FanSpeedCombo.Text)
+			switch (LinuxCombo.Text)
 			{
 				case "1GB":
 					Payload_File = $@"{Startup}\payloads\linux1gb.bin";

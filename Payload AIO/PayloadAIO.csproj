@@ -43,10 +43,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="librpc\MemoryEntry.cs" />
     <Compile Include="librpc\Process.cs" />
-    <Compile Include="librpc\ProcessInfo.cs" />
-    <Compile Include="librpc\ProcessList.cs" />
     <Compile Include="librpc\PS4RPC.cs" />
     <Compile Include="PayloadAIO\Calling.cs" />
     <Compile Include="PayloadAIO\Program.cs" />
