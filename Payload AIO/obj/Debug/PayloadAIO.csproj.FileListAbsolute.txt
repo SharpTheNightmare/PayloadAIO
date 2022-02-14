@@ -1,0 +1,11 @@
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\obj\Debug\PayloadAIO.csproj.AssemblyReference.cache
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\obj\Debug\PayloadAIO.csproj.SuggestedBindingRedirects.cache
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\obj\Debug\PayloadAIO.Tool.resources
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\obj\Debug\PayloadAIO.csproj.GenerateResource.cache
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\obj\Debug\Payload & ELF Injector.Properties.Resources.resources
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\obj\Debug\PayloadAIO.csproj.CoreCompileInputs.cache
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\bin\Debug\PayloadAIO.exe.config
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\bin\Debug\PayloadAIO.exe
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\bin\Debug\PayloadAIO.pdb
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\obj\Debug\PayloadAIO.exe
+C:\Users\koent\Documents\Visual Studio\repos\Payload Elf Injector\Payload & ELF Injector\obj\Debug\PayloadAIO.pdb
