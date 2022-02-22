@@ -164,7 +164,7 @@ namespace PayloadAIO
         {
             if (method == "btn")
             {
-                path = $@"{Startup}\Payloads\{path}";
+                path = $@"{Startup}Payloads\{path}";
                 Payload = Path.GetFileNameWithoutExtension(path);
                 Payload_File = path;
                 InjectUtil(path);

@@ -149,6 +149,7 @@
             this.FilePathBox.MaxLength = 2000000000;
             this.FilePathBox.Multiline = true;
             this.FilePathBox.Name = "FilePathBox";
+            this.FilePathBox.ReadOnly = true;
             this.FilePathBox.Size = new System.Drawing.Size(767, 20);
             this.FilePathBox.TabIndex = 1;
             this.FilePathBox.TabStop = false;
