@@ -17,6 +17,7 @@
         // Token: 0x06000052 RID: 82 RVA: 0x00004110 File Offset: 0x00002310
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tool));
             this.Port_TextBox = new System.Windows.Forms.TextBox();
             this.IP_TextBox = new System.Windows.Forms.TextBox();
@@ -29,43 +30,46 @@
             this.FilePathBox = new System.Windows.Forms.TextBox();
             this.GoldHenButton = new System.Windows.Forms.Button();
             this.PayloadGroupB = new System.Windows.Forms.GroupBox();
+            this.DisableToDexButton = new System.Windows.Forms.Button();
+            this.App2USBButton = new System.Windows.Forms.Button();
+            this.DumperGB = new System.Windows.Forms.GroupBox();
+            this.AppDumperButton = new System.Windows.Forms.Button();
+            this.KernelDumperButton = new System.Windows.Forms.Button();
+            this.ModuleDumperButton = new System.Windows.Forms.Button();
+            this.GameDumperButton = new System.Windows.Forms.Button();
+            this.MainGB = new System.Windows.Forms.GroupBox();
+            this.FTPButton = new System.Windows.Forms.Button();
             this.PS4DebugButton = new System.Windows.Forms.Button();
+            this.FanSpeedCombo = new System.Windows.Forms.ComboBox();
             this.WebRTEButton = new System.Windows.Forms.Button();
-            this.DisableUpdates = new System.Windows.Forms.Button();
+            this.FanSpeedButton = new System.Windows.Forms.Button();
             this.OrbisToolboxButton = new System.Windows.Forms.Button();
+            this.DisableUpdates = new System.Windows.Forms.Button();
             this.EnableUpdates = new System.Windows.Forms.Button();
             this.HistoryBlockerButton = new System.Windows.Forms.Button();
             this.DBBackupButton = new System.Windows.Forms.Button();
             this.DBRestoreButton = new System.Windows.Forms.Button();
-            this.ToDexButton = new System.Windows.Forms.Button();
-            this.KernelDumperButton = new System.Windows.Forms.Button();
-            this.PermanentUartButton = new System.Windows.Forms.Button();
-            this.App2USBButton = new System.Windows.Forms.Button();
-            this.AppDumperButton = new System.Windows.Forms.Button();
-            this.RifRenamerButton = new System.Windows.Forms.Button();
-            this.GameDumperButton = new System.Windows.Forms.Button();
-            this.EnableBrowserButton = new System.Windows.Forms.Button();
-            this.FakeUSBButton = new System.Windows.Forms.Button();
-            this.DisableASLRButton = new System.Windows.Forms.Button();
-            this.ModuleDumperButton = new System.Windows.Forms.Button();
-            this.FanSpeedButton = new System.Windows.Forms.Button();
-            this.LinuxButton = new System.Windows.Forms.Button();
-            this.FanSpeedCombo = new System.Windows.Forms.ComboBox();
-            this.LinuxCombo = new System.Windows.Forms.ComboBox();
-            this.LinuxEnable = new System.Windows.Forms.CheckBox();
             this.LinuxGroup = new System.Windows.Forms.GroupBox();
-            this.MainGB = new System.Windows.Forms.GroupBox();
-            this.FTPButton = new System.Windows.Forms.Button();
-            this.DumperGB = new System.Windows.Forms.GroupBox();
+            this.LinuxEnable = new System.Windows.Forms.CheckBox();
+            this.LinuxCombo = new System.Windows.Forms.ComboBox();
+            this.LinuxButton = new System.Windows.Forms.Button();
+            this.DisableASLRButton = new System.Windows.Forms.Button();
+            this.FakeUSBButton = new System.Windows.Forms.Button();
+            this.EnableBrowserButton = new System.Windows.Forms.Button();
+            this.RifRenamerButton = new System.Windows.Forms.Button();
+            this.PermanentUartButton = new System.Windows.Forms.Button();
+            this.ToDexButton = new System.Windows.Forms.Button();
+            this.DeConPS4Debug = new System.Windows.Forms.Button();
+            this.ConnectionTestTimer = new System.Windows.Forms.Timer(this.components);
             this.PayloadGroupB.SuspendLayout();
-            this.LinuxGroup.SuspendLayout();
-            this.MainGB.SuspendLayout();
             this.DumperGB.SuspendLayout();
+            this.MainGB.SuspendLayout();
+            this.LinuxGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // Port_TextBox
             // 
-            this.Port_TextBox.Location = new System.Drawing.Point(117, 31);
+            this.Port_TextBox.Location = new System.Drawing.Point(113, 31);
             this.Port_TextBox.Multiline = true;
             this.Port_TextBox.Name = "Port_TextBox";
             this.Port_TextBox.Size = new System.Drawing.Size(44, 20);
@@ -76,7 +80,7 @@
             // 
             // IP_TextBox
             // 
-            this.IP_TextBox.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IP_TextBox.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.IP_TextBox.Location = new System.Drawing.Point(6, 31);
             this.IP_TextBox.Multiline = true;
             this.IP_TextBox.Name = "IP_TextBox";
@@ -100,7 +104,7 @@
             // 
             // SelectPayload_Button
             // 
-            this.SelectPayload_Button.Location = new System.Drawing.Point(167, 30);
+            this.SelectPayload_Button.Location = new System.Drawing.Point(487, 30);
             this.SelectPayload_Button.Name = "SelectPayload_Button";
             this.SelectPayload_Button.Size = new System.Drawing.Size(140, 23);
             this.SelectPayload_Button.TabIndex = 0;
@@ -140,7 +144,7 @@
             // 
             this.FilePathBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.FilePathBox.Font = new System.Drawing.Font("Segoe UI", 7.25F);
+            this.FilePathBox.Font = new System.Drawing.Font("Segoe UI", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FilePathBox.Location = new System.Drawing.Point(6, 5);
             this.FilePathBox.MaxLength = 2000000000;
             this.FilePathBox.Multiline = true;
@@ -164,6 +168,8 @@
             this.PayloadGroupB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.PayloadGroupB.Controls.Add(this.DisableToDexButton);
+            this.PayloadGroupB.Controls.Add(this.App2USBButton);
             this.PayloadGroupB.Controls.Add(this.DumperGB);
             this.PayloadGroupB.Controls.Add(this.MainGB);
             this.PayloadGroupB.Controls.Add(this.LinuxGroup);
@@ -180,6 +186,110 @@
             this.PayloadGroupB.TabStop = false;
             this.PayloadGroupB.Text = "Payloads";
             // 
+            // DisableToDexButton
+            // 
+            this.DisableToDexButton.Location = new System.Drawing.Point(438, 109);
+            this.DisableToDexButton.Name = "DisableToDexButton";
+            this.DisableToDexButton.Size = new System.Drawing.Size(101, 23);
+            this.DisableToDexButton.TabIndex = 35;
+            this.DisableToDexButton.Text = "Disable ToDex";
+            this.DisableToDexButton.UseVisualStyleBackColor = true;
+            this.DisableToDexButton.Click += new System.EventHandler(this.DisableToDexButton_Click);
+            // 
+            // App2USBButton
+            // 
+            this.App2USBButton.Location = new System.Drawing.Point(551, 84);
+            this.App2USBButton.Name = "App2USBButton";
+            this.App2USBButton.Size = new System.Drawing.Size(101, 23);
+            this.App2USBButton.TabIndex = 16;
+            this.App2USBButton.Text = "App2USB";
+            this.App2USBButton.UseVisualStyleBackColor = true;
+            this.App2USBButton.Click += new System.EventHandler(this.App2USBButton_Click);
+            // 
+            // DumperGB
+            // 
+            this.DumperGB.Controls.Add(this.AppDumperButton);
+            this.DumperGB.Controls.Add(this.KernelDumperButton);
+            this.DumperGB.Controls.Add(this.ModuleDumperButton);
+            this.DumperGB.Controls.Add(this.GameDumperButton);
+            this.DumperGB.Location = new System.Drawing.Point(329, 13);
+            this.DumperGB.Name = "DumperGB";
+            this.DumperGB.Size = new System.Drawing.Size(216, 69);
+            this.DumperGB.TabIndex = 34;
+            this.DumperGB.TabStop = false;
+            this.DumperGB.Text = "Dumpers";
+            // 
+            // AppDumperButton
+            // 
+            this.AppDumperButton.Location = new System.Drawing.Point(109, 14);
+            this.AppDumperButton.Name = "AppDumperButton";
+            this.AppDumperButton.Size = new System.Drawing.Size(101, 23);
+            this.AppDumperButton.TabIndex = 17;
+            this.AppDumperButton.Text = "App Dumper";
+            this.AppDumperButton.UseVisualStyleBackColor = true;
+            this.AppDumperButton.Click += new System.EventHandler(this.AppDumperButton_Click);
+            // 
+            // KernelDumperButton
+            // 
+            this.KernelDumperButton.Location = new System.Drawing.Point(6, 40);
+            this.KernelDumperButton.Name = "KernelDumperButton";
+            this.KernelDumperButton.Size = new System.Drawing.Size(101, 23);
+            this.KernelDumperButton.TabIndex = 12;
+            this.KernelDumperButton.Text = "Kernel Dumper";
+            this.KernelDumperButton.UseVisualStyleBackColor = true;
+            this.KernelDumperButton.Click += new System.EventHandler(this.KernelDumperButton_Click);
+            // 
+            // ModuleDumperButton
+            // 
+            this.ModuleDumperButton.Location = new System.Drawing.Point(111, 40);
+            this.ModuleDumperButton.Name = "ModuleDumperButton";
+            this.ModuleDumperButton.Size = new System.Drawing.Size(101, 23);
+            this.ModuleDumperButton.TabIndex = 26;
+            this.ModuleDumperButton.Text = "Module Dumper";
+            this.ModuleDumperButton.UseVisualStyleBackColor = true;
+            this.ModuleDumperButton.Click += new System.EventHandler(this.ModuleDumperButton_Click);
+            // 
+            // GameDumperButton
+            // 
+            this.GameDumperButton.Location = new System.Drawing.Point(6, 14);
+            this.GameDumperButton.Name = "GameDumperButton";
+            this.GameDumperButton.Size = new System.Drawing.Size(101, 23);
+            this.GameDumperButton.TabIndex = 19;
+            this.GameDumperButton.Text = "Game Dumper";
+            this.GameDumperButton.UseVisualStyleBackColor = true;
+            this.GameDumperButton.Click += new System.EventHandler(this.GameDumperButton_Click);
+            // 
+            // MainGB
+            // 
+            this.MainGB.Controls.Add(this.FTPButton);
+            this.MainGB.Controls.Add(this.GoldHenButton);
+            this.MainGB.Controls.Add(this.PS4DebugButton);
+            this.MainGB.Controls.Add(this.FanSpeedCombo);
+            this.MainGB.Controls.Add(this.WebRTEButton);
+            this.MainGB.Controls.Add(this.FanSpeedButton);
+            this.MainGB.Controls.Add(this.OrbisToolboxButton);
+            this.MainGB.Controls.Add(this.DisableUpdates);
+            this.MainGB.Controls.Add(this.EnableUpdates);
+            this.MainGB.Controls.Add(this.HistoryBlockerButton);
+            this.MainGB.Controls.Add(this.DBBackupButton);
+            this.MainGB.Controls.Add(this.DBRestoreButton);
+            this.MainGB.Location = new System.Drawing.Point(8, 13);
+            this.MainGB.Name = "MainGB";
+            this.MainGB.Size = new System.Drawing.Size(319, 119);
+            this.MainGB.TabIndex = 33;
+            this.MainGB.TabStop = false;
+            this.MainGB.Text = "Main";
+            // 
+            // FTPButton
+            // 
+            this.FTPButton.Location = new System.Drawing.Point(6, 89);
+            this.FTPButton.Name = "FTPButton";
+            this.FTPButton.Size = new System.Drawing.Size(101, 23);
+            this.FTPButton.TabIndex = 30;
+            this.FTPButton.Text = "FTP";
+            this.FTPButton.UseVisualStyleBackColor = true;
+            this.FTPButton.Click += new System.EventHandler(this.FTPButton_Click);
+            // 
             // PS4DebugButton
             // 
             this.PS4DebugButton.Location = new System.Drawing.Point(109, 14);
@@ -189,6 +299,24 @@
             this.PS4DebugButton.Text = "PS4Debug";
             this.PS4DebugButton.UseVisualStyleBackColor = true;
             this.PS4DebugButton.Click += new System.EventHandler(this.PS4DebugButton_Click);
+            // 
+            // FanSpeedCombo
+            // 
+            this.FanSpeedCombo.FormattingEnabled = true;
+            this.FanSpeedCombo.Items.AddRange(new object[] {
+            "Default",
+            "80",
+            "75",
+            "70",
+            "65",
+            "60",
+            "55",
+            "50"});
+            this.FanSpeedCombo.Location = new System.Drawing.Point(212, 90);
+            this.FanSpeedCombo.Name = "FanSpeedCombo";
+            this.FanSpeedCombo.Size = new System.Drawing.Size(101, 21);
+            this.FanSpeedCombo.TabIndex = 29;
+            this.FanSpeedCombo.Text = "Default";
             // 
             // WebRTEButton
             // 
@@ -200,15 +328,15 @@
             this.WebRTEButton.UseVisualStyleBackColor = true;
             this.WebRTEButton.Click += new System.EventHandler(this.WebRTEButton_Click);
             // 
-            // DisableUpdates
+            // FanSpeedButton
             // 
-            this.DisableUpdates.Location = new System.Drawing.Point(109, 39);
-            this.DisableUpdates.Name = "DisableUpdates";
-            this.DisableUpdates.Size = new System.Drawing.Size(101, 23);
-            this.DisableUpdates.TabIndex = 5;
-            this.DisableUpdates.Text = "Disable Updates";
-            this.DisableUpdates.UseVisualStyleBackColor = true;
-            this.DisableUpdates.Click += new System.EventHandler(this.DisableUpdates_Click);
+            this.FanSpeedButton.Location = new System.Drawing.Point(109, 89);
+            this.FanSpeedButton.Name = "FanSpeedButton";
+            this.FanSpeedButton.Size = new System.Drawing.Size(101, 23);
+            this.FanSpeedButton.TabIndex = 27;
+            this.FanSpeedButton.Text = "Fan Speed";
+            this.FanSpeedButton.UseVisualStyleBackColor = true;
+            this.FanSpeedButton.Click += new System.EventHandler(this.FanSpeedButton_Click);
             // 
             // OrbisToolboxButton
             // 
@@ -219,6 +347,16 @@
             this.OrbisToolboxButton.Text = "Orbis Toolbox";
             this.OrbisToolboxButton.UseVisualStyleBackColor = true;
             this.OrbisToolboxButton.Click += new System.EventHandler(this.OrbisToolboxButton_Click);
+            // 
+            // DisableUpdates
+            // 
+            this.DisableUpdates.Location = new System.Drawing.Point(109, 39);
+            this.DisableUpdates.Name = "DisableUpdates";
+            this.DisableUpdates.Size = new System.Drawing.Size(101, 23);
+            this.DisableUpdates.TabIndex = 5;
+            this.DisableUpdates.Text = "Disable Updates";
+            this.DisableUpdates.UseVisualStyleBackColor = true;
+            this.DisableUpdates.Click += new System.EventHandler(this.DisableUpdates_Click);
             // 
             // EnableUpdates
             // 
@@ -260,154 +398,28 @@
             this.DBRestoreButton.UseVisualStyleBackColor = true;
             this.DBRestoreButton.Click += new System.EventHandler(this.DBRestoreButton_Click);
             // 
-            // ToDexButton
+            // LinuxGroup
             // 
-            this.ToDexButton.Location = new System.Drawing.Point(551, 77);
-            this.ToDexButton.Name = "ToDexButton";
-            this.ToDexButton.Size = new System.Drawing.Size(101, 23);
-            this.ToDexButton.TabIndex = 11;
-            this.ToDexButton.Text = "ToDex";
-            this.ToDexButton.UseVisualStyleBackColor = true;
-            this.ToDexButton.Click += new System.EventHandler(this.ToDexButton_Click);
+            this.LinuxGroup.Controls.Add(this.LinuxEnable);
+            this.LinuxGroup.Controls.Add(this.LinuxCombo);
+            this.LinuxGroup.Controls.Add(this.LinuxButton);
+            this.LinuxGroup.Location = new System.Drawing.Point(547, 13);
+            this.LinuxGroup.Name = "LinuxGroup";
+            this.LinuxGroup.Size = new System.Drawing.Size(213, 69);
+            this.LinuxGroup.TabIndex = 32;
+            this.LinuxGroup.TabStop = false;
+            this.LinuxGroup.Text = "Linux";
             // 
-            // KernelDumperButton
+            // LinuxEnable
             // 
-            this.KernelDumperButton.Location = new System.Drawing.Point(6, 65);
-            this.KernelDumperButton.Name = "KernelDumperButton";
-            this.KernelDumperButton.Size = new System.Drawing.Size(101, 23);
-            this.KernelDumperButton.TabIndex = 12;
-            this.KernelDumperButton.Text = "Kernel Dumper";
-            this.KernelDumperButton.UseVisualStyleBackColor = true;
-            this.KernelDumperButton.Click += new System.EventHandler(this.KernelDumperButton_Click);
-            // 
-            // PermanentUartButton
-            // 
-            this.PermanentUartButton.Location = new System.Drawing.Point(654, 108);
-            this.PermanentUartButton.Name = "PermanentUartButton";
-            this.PermanentUartButton.Size = new System.Drawing.Size(101, 23);
-            this.PermanentUartButton.TabIndex = 15;
-            this.PermanentUartButton.Text = "Permanent Uart";
-            this.PermanentUartButton.UseVisualStyleBackColor = true;
-            this.PermanentUartButton.Click += new System.EventHandler(this.PermanentUartButton_Click);
-            // 
-            // App2USBButton
-            // 
-            this.App2USBButton.Location = new System.Drawing.Point(6, 14);
-            this.App2USBButton.Name = "App2USBButton";
-            this.App2USBButton.Size = new System.Drawing.Size(101, 23);
-            this.App2USBButton.TabIndex = 16;
-            this.App2USBButton.Text = "App2USB";
-            this.App2USBButton.UseVisualStyleBackColor = true;
-            this.App2USBButton.Click += new System.EventHandler(this.App2USBButton_Click);
-            // 
-            // AppDumperButton
-            // 
-            this.AppDumperButton.Location = new System.Drawing.Point(109, 39);
-            this.AppDumperButton.Name = "AppDumperButton";
-            this.AppDumperButton.Size = new System.Drawing.Size(101, 23);
-            this.AppDumperButton.TabIndex = 17;
-            this.AppDumperButton.Text = "App Dumper";
-            this.AppDumperButton.UseVisualStyleBackColor = true;
-            this.AppDumperButton.Click += new System.EventHandler(this.AppDumperButton_Click);
-            // 
-            // RifRenamerButton
-            // 
-            this.RifRenamerButton.Location = new System.Drawing.Point(654, 77);
-            this.RifRenamerButton.Name = "RifRenamerButton";
-            this.RifRenamerButton.Size = new System.Drawing.Size(101, 23);
-            this.RifRenamerButton.TabIndex = 18;
-            this.RifRenamerButton.Text = "Rif Renamer";
-            this.RifRenamerButton.UseVisualStyleBackColor = true;
-            this.RifRenamerButton.Click += new System.EventHandler(this.RifRenamerButton_Click);
-            // 
-            // GameDumperButton
-            // 
-            this.GameDumperButton.Location = new System.Drawing.Point(6, 39);
-            this.GameDumperButton.Name = "GameDumperButton";
-            this.GameDumperButton.Size = new System.Drawing.Size(101, 23);
-            this.GameDumperButton.TabIndex = 19;
-            this.GameDumperButton.Text = "Game Dumper";
-            this.GameDumperButton.UseVisualStyleBackColor = true;
-            this.GameDumperButton.Click += new System.EventHandler(this.GameDumperButton_Click);
-            // 
-            // EnableBrowserButton
-            // 
-            this.EnableBrowserButton.Location = new System.Drawing.Point(335, 108);
-            this.EnableBrowserButton.Name = "EnableBrowserButton";
-            this.EnableBrowserButton.Size = new System.Drawing.Size(101, 23);
-            this.EnableBrowserButton.TabIndex = 20;
-            this.EnableBrowserButton.Text = "Enable Browser";
-            this.EnableBrowserButton.UseVisualStyleBackColor = true;
-            this.EnableBrowserButton.Click += new System.EventHandler(this.EnableBrowserButton_Click);
-            // 
-            // FakeUSBButton
-            // 
-            this.FakeUSBButton.Location = new System.Drawing.Point(551, 108);
-            this.FakeUSBButton.Name = "FakeUSBButton";
-            this.FakeUSBButton.Size = new System.Drawing.Size(101, 23);
-            this.FakeUSBButton.TabIndex = 21;
-            this.FakeUSBButton.Text = "FakeUSB";
-            this.FakeUSBButton.UseVisualStyleBackColor = true;
-            this.FakeUSBButton.Click += new System.EventHandler(this.FakeUSBButton_Click);
-            // 
-            // DisableASLRButton
-            // 
-            this.DisableASLRButton.Location = new System.Drawing.Point(438, 108);
-            this.DisableASLRButton.Name = "DisableASLRButton";
-            this.DisableASLRButton.Size = new System.Drawing.Size(101, 23);
-            this.DisableASLRButton.TabIndex = 22;
-            this.DisableASLRButton.Text = "Disable ASLR";
-            this.DisableASLRButton.UseVisualStyleBackColor = true;
-            this.DisableASLRButton.Click += new System.EventHandler(this.DisableASLRButton_Click);
-            // 
-            // ModuleDumperButton
-            // 
-            this.ModuleDumperButton.Location = new System.Drawing.Point(109, 14);
-            this.ModuleDumperButton.Name = "ModuleDumperButton";
-            this.ModuleDumperButton.Size = new System.Drawing.Size(101, 23);
-            this.ModuleDumperButton.TabIndex = 26;
-            this.ModuleDumperButton.Text = "Module Dumper";
-            this.ModuleDumperButton.UseVisualStyleBackColor = true;
-            this.ModuleDumperButton.Click += new System.EventHandler(this.ModuleDumperButton_Click);
-            // 
-            // FanSpeedButton
-            // 
-            this.FanSpeedButton.Location = new System.Drawing.Point(109, 89);
-            this.FanSpeedButton.Name = "FanSpeedButton";
-            this.FanSpeedButton.Size = new System.Drawing.Size(101, 23);
-            this.FanSpeedButton.TabIndex = 27;
-            this.FanSpeedButton.Text = "Fan Speed";
-            this.FanSpeedButton.UseVisualStyleBackColor = true;
-            this.FanSpeedButton.Click += new System.EventHandler(this.FanSpeedButton_Click);
-            // 
-            // LinuxButton
-            // 
-            this.LinuxButton.Enabled = false;
-            this.LinuxButton.Location = new System.Drawing.Point(4, 14);
-            this.LinuxButton.Name = "LinuxButton";
-            this.LinuxButton.Size = new System.Drawing.Size(101, 23);
-            this.LinuxButton.TabIndex = 28;
-            this.LinuxButton.Text = "Linux";
-            this.LinuxButton.UseVisualStyleBackColor = true;
-            this.LinuxButton.Click += new System.EventHandler(this.LinuxButton_Click);
-            // 
-            // FanSpeedCombo
-            // 
-            this.FanSpeedCombo.FormattingEnabled = true;
-            this.FanSpeedCombo.Items.AddRange(new object[] {
-            "Default",
-            "80",
-            "75",
-            "70",
-            "65",
-            "60",
-            "55",
-            "50"});
-            this.FanSpeedCombo.Location = new System.Drawing.Point(212, 90);
-            this.FanSpeedCombo.Name = "FanSpeedCombo";
-            this.FanSpeedCombo.Size = new System.Drawing.Size(101, 21);
-            this.FanSpeedCombo.TabIndex = 29;
-            this.FanSpeedCombo.Text = "Default";
+            this.LinuxEnable.AutoSize = true;
+            this.LinuxEnable.Location = new System.Drawing.Point(74, 45);
+            this.LinuxEnable.Name = "LinuxEnable";
+            this.LinuxEnable.Size = new System.Drawing.Size(61, 17);
+            this.LinuxEnable.TabIndex = 31;
+            this.LinuxEnable.Text = "Enable";
+            this.LinuxEnable.UseVisualStyleBackColor = true;
+            this.LinuxEnable.CheckedChanged += new System.EventHandler(this.LinuxEnable_CheckedChanged);
             // 
             // LinuxCombo
             // 
@@ -425,73 +437,92 @@
             this.LinuxCombo.TabIndex = 30;
             this.LinuxCombo.Text = "1GB";
             // 
-            // LinuxEnable
+            // LinuxButton
             // 
-            this.LinuxEnable.AutoSize = true;
-            this.LinuxEnable.Location = new System.Drawing.Point(74, 41);
-            this.LinuxEnable.Name = "LinuxEnable";
-            this.LinuxEnable.Size = new System.Drawing.Size(61, 17);
-            this.LinuxEnable.TabIndex = 31;
-            this.LinuxEnable.Text = "Enable";
-            this.LinuxEnable.UseVisualStyleBackColor = true;
-            this.LinuxEnable.CheckedChanged += new System.EventHandler(this.LinuxEnable_CheckedChanged);
+            this.LinuxButton.Enabled = false;
+            this.LinuxButton.Location = new System.Drawing.Point(4, 14);
+            this.LinuxButton.Name = "LinuxButton";
+            this.LinuxButton.Size = new System.Drawing.Size(101, 23);
+            this.LinuxButton.TabIndex = 28;
+            this.LinuxButton.Text = "Linux";
+            this.LinuxButton.UseVisualStyleBackColor = true;
+            this.LinuxButton.Click += new System.EventHandler(this.LinuxButton_Click);
             // 
-            // LinuxGroup
+            // DisableASLRButton
             // 
-            this.LinuxGroup.Controls.Add(this.LinuxEnable);
-            this.LinuxGroup.Controls.Add(this.LinuxCombo);
-            this.LinuxGroup.Controls.Add(this.LinuxButton);
-            this.LinuxGroup.Location = new System.Drawing.Point(547, 13);
-            this.LinuxGroup.Name = "LinuxGroup";
-            this.LinuxGroup.Size = new System.Drawing.Size(213, 62);
-            this.LinuxGroup.TabIndex = 32;
-            this.LinuxGroup.TabStop = false;
-            this.LinuxGroup.Text = "Linux";
+            this.DisableASLRButton.Location = new System.Drawing.Point(438, 84);
+            this.DisableASLRButton.Name = "DisableASLRButton";
+            this.DisableASLRButton.Size = new System.Drawing.Size(101, 23);
+            this.DisableASLRButton.TabIndex = 22;
+            this.DisableASLRButton.Text = "Disable ASLR";
+            this.DisableASLRButton.UseVisualStyleBackColor = true;
+            this.DisableASLRButton.Click += new System.EventHandler(this.DisableASLRButton_Click);
             // 
-            // MainGB
+            // FakeUSBButton
             // 
-            this.MainGB.Controls.Add(this.FTPButton);
-            this.MainGB.Controls.Add(this.GoldHenButton);
-            this.MainGB.Controls.Add(this.PS4DebugButton);
-            this.MainGB.Controls.Add(this.FanSpeedCombo);
-            this.MainGB.Controls.Add(this.WebRTEButton);
-            this.MainGB.Controls.Add(this.FanSpeedButton);
-            this.MainGB.Controls.Add(this.OrbisToolboxButton);
-            this.MainGB.Controls.Add(this.DisableUpdates);
-            this.MainGB.Controls.Add(this.EnableUpdates);
-            this.MainGB.Controls.Add(this.HistoryBlockerButton);
-            this.MainGB.Controls.Add(this.DBBackupButton);
-            this.MainGB.Controls.Add(this.DBRestoreButton);
-            this.MainGB.Location = new System.Drawing.Point(8, 13);
-            this.MainGB.Name = "MainGB";
-            this.MainGB.Size = new System.Drawing.Size(319, 119);
-            this.MainGB.TabIndex = 33;
-            this.MainGB.TabStop = false;
-            this.MainGB.Text = "Main";
+            this.FakeUSBButton.Location = new System.Drawing.Point(551, 109);
+            this.FakeUSBButton.Name = "FakeUSBButton";
+            this.FakeUSBButton.Size = new System.Drawing.Size(101, 23);
+            this.FakeUSBButton.TabIndex = 21;
+            this.FakeUSBButton.Text = "FakeUSB";
+            this.FakeUSBButton.UseVisualStyleBackColor = true;
+            this.FakeUSBButton.Click += new System.EventHandler(this.FakeUSBButton_Click);
             // 
-            // FTPButton
+            // EnableBrowserButton
             // 
-            this.FTPButton.Location = new System.Drawing.Point(6, 89);
-            this.FTPButton.Name = "FTPButton";
-            this.FTPButton.Size = new System.Drawing.Size(101, 23);
-            this.FTPButton.TabIndex = 30;
-            this.FTPButton.Text = "FTP";
-            this.FTPButton.UseVisualStyleBackColor = true;
-            this.FTPButton.Click += new System.EventHandler(this.FTPButton_Click);
+            this.EnableBrowserButton.Location = new System.Drawing.Point(335, 84);
+            this.EnableBrowserButton.Name = "EnableBrowserButton";
+            this.EnableBrowserButton.Size = new System.Drawing.Size(101, 23);
+            this.EnableBrowserButton.TabIndex = 20;
+            this.EnableBrowserButton.Text = "Enable Browser";
+            this.EnableBrowserButton.UseVisualStyleBackColor = true;
+            this.EnableBrowserButton.Click += new System.EventHandler(this.EnableBrowserButton_Click);
             // 
-            // DumperGB
+            // RifRenamerButton
             // 
-            this.DumperGB.Controls.Add(this.App2USBButton);
-            this.DumperGB.Controls.Add(this.AppDumperButton);
-            this.DumperGB.Controls.Add(this.KernelDumperButton);
-            this.DumperGB.Controls.Add(this.ModuleDumperButton);
-            this.DumperGB.Controls.Add(this.GameDumperButton);
-            this.DumperGB.Location = new System.Drawing.Point(329, 13);
-            this.DumperGB.Name = "DumperGB";
-            this.DumperGB.Size = new System.Drawing.Size(216, 94);
-            this.DumperGB.TabIndex = 34;
-            this.DumperGB.TabStop = false;
-            this.DumperGB.Text = "Dumpers";
+            this.RifRenamerButton.Location = new System.Drawing.Point(654, 84);
+            this.RifRenamerButton.Name = "RifRenamerButton";
+            this.RifRenamerButton.Size = new System.Drawing.Size(101, 23);
+            this.RifRenamerButton.TabIndex = 18;
+            this.RifRenamerButton.Text = "Rif Renamer";
+            this.RifRenamerButton.UseVisualStyleBackColor = true;
+            this.RifRenamerButton.Click += new System.EventHandler(this.RifRenamerButton_Click);
+            // 
+            // PermanentUartButton
+            // 
+            this.PermanentUartButton.Location = new System.Drawing.Point(654, 109);
+            this.PermanentUartButton.Name = "PermanentUartButton";
+            this.PermanentUartButton.Size = new System.Drawing.Size(101, 23);
+            this.PermanentUartButton.TabIndex = 15;
+            this.PermanentUartButton.Text = "Permanent Uart";
+            this.PermanentUartButton.UseVisualStyleBackColor = true;
+            this.PermanentUartButton.Click += new System.EventHandler(this.PermanentUartButton_Click);
+            // 
+            // ToDexButton
+            // 
+            this.ToDexButton.Location = new System.Drawing.Point(335, 109);
+            this.ToDexButton.Name = "ToDexButton";
+            this.ToDexButton.Size = new System.Drawing.Size(101, 23);
+            this.ToDexButton.TabIndex = 11;
+            this.ToDexButton.Text = "ToDex";
+            this.ToDexButton.UseVisualStyleBackColor = true;
+            this.ToDexButton.Click += new System.EventHandler(this.ToDexButton_Click);
+            // 
+            // DeConPS4Debug
+            // 
+            this.DeConPS4Debug.Location = new System.Drawing.Point(159, 30);
+            this.DeConPS4Debug.Name = "DeConPS4Debug";
+            this.DeConPS4Debug.Size = new System.Drawing.Size(140, 23);
+            this.DeConPS4Debug.TabIndex = 4;
+            this.DeConPS4Debug.TabStop = false;
+            this.DeConPS4Debug.Text = "Connect to PS4Debug";
+            this.DeConPS4Debug.UseVisualStyleBackColor = true;
+            this.DeConPS4Debug.Click += new System.EventHandler(this.DeConPS4Debug_Click);
+            // 
+            // ConnectionTestTimer
+            // 
+            this.ConnectionTestTimer.Interval = 500;
+            this.ConnectionTestTimer.Tick += new System.EventHandler(this.ConnectionTestTimer_Tick);
             // 
             // Tool
             // 
@@ -499,6 +530,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(779, 219);
+            this.Controls.Add(this.DeConPS4Debug);
             this.Controls.Add(this.PayloadGroupB);
             this.Controls.Add(this.InjectPayload_Button);
             this.Controls.Add(this.FilePathBox);
@@ -507,7 +539,7 @@
             this.Controls.Add(this.CurrentStatus_Label);
             this.Controls.Add(this.Port_TextBox);
             this.Controls.Add(this.IP_TextBox);
-            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -519,10 +551,10 @@
             this.Text = "Payload AIO";
             this.Load += new System.EventHandler(this.Tool_Load);
             this.PayloadGroupB.ResumeLayout(false);
+            this.DumperGB.ResumeLayout(false);
+            this.MainGB.ResumeLayout(false);
             this.LinuxGroup.ResumeLayout(false);
             this.LinuxGroup.PerformLayout();
-            this.MainGB.ResumeLayout(false);
-            this.DumperGB.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -585,5 +617,8 @@
         private System.Windows.Forms.GroupBox MainGB;
         private System.Windows.Forms.Button FTPButton;
         private System.Windows.Forms.GroupBox DumperGB;
+        private System.Windows.Forms.Button DeConPS4Debug;
+        private System.Windows.Forms.Timer ConnectionTestTimer;
+        private System.Windows.Forms.Button DisableToDexButton;
     }
 }

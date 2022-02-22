@@ -18,3 +18,5 @@ C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\obj\Debug\Pa
 C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\obj\Debug\PayloadAIO.exe
 C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\bin\Debug\PayloadAIO.exe.config
 C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\bin\Debug\PayloadAIO.exe
+C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\bin\Debug\libdebug.dll
+C:\Users\koent\Documents\Visual Studio\repos\PayloadAIO\Payload AIO\obj\Debug\PayloadAIO.csproj.CopyComplete
