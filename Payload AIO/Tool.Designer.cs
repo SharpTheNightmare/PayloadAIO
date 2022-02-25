@@ -518,6 +518,7 @@
             this.DeConPS4Debug.TabStop = false;
             this.DeConPS4Debug.Text = "Connect to PS4Debug";
             this.DeConPS4Debug.UseVisualStyleBackColor = true;
+            this.DeConPS4Debug.Visible = false;
             this.DeConPS4Debug.Click += new System.EventHandler(this.DeConPS4Debug_Click);
             // 
             // ConnectionTestTimer
