@@ -550,7 +550,7 @@
             this.MinimumSize = new System.Drawing.Size(795, 258);
             this.Name = "Tool";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Payload AIO";
+            this.Text = "PayloadAIO";
             this.Load += new System.EventHandler(this.Tool_Load);
             this.PayloadGroupB.ResumeLayout(false);
             this.DumperGB.ResumeLayout(false);
